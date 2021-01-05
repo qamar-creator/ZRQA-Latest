@@ -12,7 +12,7 @@ namespace ZRQA
     {
         public static IWebDriver driver { get; set; }
         [TestMethod]
-        public void ValidateLogin()
+        public void ValidateLoginzrqa()
 
         {
             var chromOptions = new ChromeOptions();
