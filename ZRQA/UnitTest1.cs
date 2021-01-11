@@ -19,7 +19,7 @@ namespace ZRQA
             // chromOptions.AddArgument("-no-sandbox");
             chromOptions.AddArgument("headless");
             driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), chromOptions);
-            driver.Navigate().GoToUrl("https://zrqa.qwikcoverage.com/Login/Login.aspx");
+            driver.Navigate().GoToUrl("https://zqa.qwikcoverage.com/Login/Login.aspx");
              
              
         }
